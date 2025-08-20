@@ -38,7 +38,7 @@ const LoginForm = ({ onShowRegister }) => {
       <div className="bg-white rounded-lg shadow-md p-8 w-full max-w-md">
         <div className="text-center mb-8">
           <h1 className="text-2xl font-bold text-gray-800">
-            Store Rating System
+            Store Rating App
           </h1>
           <p className="text-gray-600 mt-2">Sign in to your account</p>
         </div>
