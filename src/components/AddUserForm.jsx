@@ -19,7 +19,7 @@ const AddUserForm = ({ isOpen, onClose, onUserAdded }) => {
     // Validation functions
     const validateName = (name) => {
         if (!name.trim()) return 'Name is required';
-        if (name.length < 10) return 'Name must be at least 10 characters long';
+        if (name.length < 20) return 'Name must be at least 10 characters long';
         if (name.length > 60) return 'Name must not exceed 60 characters';
         return '';
     };

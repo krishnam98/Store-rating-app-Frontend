@@ -15,7 +15,7 @@ const RegisterForm = ({ onShowLogin }) => {
     const [loading, setLoading] = useState(false);
 
     const validateForm = () => {
-        if (formData.name.length < 10 || formData.name.length > 60) {
+        if (formData.name.length < 20 || formData.name.length > 60) {
             return 'Name must be between 20-60 characters';
         }
         if (formData.address.length > 400) {
