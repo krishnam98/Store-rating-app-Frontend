@@ -90,7 +90,7 @@ const AdminDashboard = () => {
                     <div className="flex justify-between items-center py-4">
                         <div>
                             <h1 className="text-xl font-semibold text-gray-900">Admin Dashboard</h1>
-                            <p className="text-sm text-gray-600">Welcome, {user.name}</p>
+                            <p className="text-sm text-gray-600">Welcome, {user.user.name}</p>
                         </div>
                         <button
                             onClick={logout}
